@@ -1,3 +1,4 @@
+import AboutUs from "../components/index/AboutUs"
 import Features from "../components/index/Features"
 import NavBar from "../components/index/NavBar"
 import TopBackground from "../components/index/TopBackground"
@@ -10,6 +11,7 @@ const Index = () => {
 			<NavBar />
 			<TopHero />
 			<Features />
+			<AboutUs />
 		</div>
 	)
 }
