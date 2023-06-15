@@ -6,7 +6,7 @@ const LaptopVideo = () => {
 		<>
 			<iframe width="100%" height="100%" src="https://www.youtube.com/embed/HwGuM02ajVE" title="YouTube video player"
 				className='w-full h-full border-0 z-20 absolute top-0 left-0 bottom-0 right-0'
-				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+				allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowFullScreen></iframe>
 			<SpinnerCircular color='#fff' secondaryColor='#aaa' size={"50px"} className='z-10' />
 		</>
 	)
