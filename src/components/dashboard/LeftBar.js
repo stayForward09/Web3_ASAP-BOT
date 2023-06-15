@@ -4,7 +4,7 @@ const LeftBar = ({ navState }) => {
 	const [navIsOpen] = navState
 
 	return (
-		<div className={"max-sm:fixed max-sm:top-0 max-sm:bottom-0 max-sm:h-[100vh] flex w-[200px] xl:w-[250px] bg-subBg flex-col overflow-auto z-20 " + (navIsOpen ? "max-sm:left-0" : "max-sm:left-[-210px]")}>
+		<div className={"max-sm:fixed max-sm:top-0 max-sm:bottom-0 max-sm:h-[100vh] flex w-[250px] sm:w-[200px] xl:w-[250px] bg-subBg flex-col overflow-auto z-20 " + (navIsOpen ? "max-sm:left-0" : "max-sm:left-[-260px]")}>
 			<div className="text-blueText font-semibold text-lg flex sm:hidden px-6 pt-8 pb-4 gap-2 items-center justify-start">
 				<img src="/images/logo.png" alt="Logo" />
 				<h1>ASAP BOT</h1>
