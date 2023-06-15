@@ -30,7 +30,7 @@ const Dividend = () => {
 				</div>
 			</div>
 			<div className="flex pt-14 flex-wrap gap w-full gap-5">
-				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-[calc(50%_-_10px)] items-center">
+				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-full smm:w-[calc(50%_-_10px)] sm:w-full md:w-[calc(50%_-_10px)] items-center">
 					<div className="w-[50px] h-[50px] bg-white bg-opacity-[0.06] flex items-center justify-center rounded-full">
 						<img src="/images/reverse-dollar.svg" alt="reverse dollar" />
 					</div>
@@ -38,7 +38,7 @@ const Dividend = () => {
 						<p>Next Pool Release</p>
 					</div>
 				</div>
-				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-[calc(50%_-_10px)] items-center">
+				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-full smm:w-[calc(50%_-_10px)] sm:w-full md:w-[calc(50%_-_10px)] items-center">
 					<div className="w-[50px] h-[50px] bg-white bg-opacity-[0.06] flex items-center justify-center rounded-full">
 						<img src="/images/reverse-dollar.svg" alt="reverse dollar" />
 					</div>
@@ -47,7 +47,7 @@ const Dividend = () => {
 						<p className="font-semibold text-2xl text-[#FAFAFB]">$0</p>
 					</div>
 				</div>
-				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-[calc(50%_-_10px)] items-center">
+				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-full smm:w-[calc(50%_-_10px)] sm:w-full md:w-[calc(50%_-_10px)] items-center">
 					<div className="w-[50px] h-[50px] bg-white bg-opacity-[0.06] flex items-center justify-center rounded-full">
 						<img src="/images/reverse-dollar.svg" alt="reverse dollar" />
 					</div>
@@ -56,7 +56,7 @@ const Dividend = () => {
 						<p className="font-semibold text-2xl text-[#FAFAFB]">+241.21%</p>
 					</div>
 				</div>
-				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-[calc(50%_-_10px)] items-center">
+				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-full smm:w-[calc(50%_-_10px)] sm:w-full md:w-[calc(50%_-_10px)] items-center">
 					<div className="w-[50px] h-[50px] bg-white bg-opacity-[0.06] flex items-center justify-center rounded-full">
 						<img src="/images/reverse-dollar.svg" alt="reverse dollar" />
 					</div>
@@ -65,7 +65,7 @@ const Dividend = () => {
 						<p className="font-semibold text-2xl text-[#FAFAFB]">0</p>
 					</div>
 				</div>
-				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-[calc(50%_-_10px)] items-center">
+				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-full smm:w-[calc(50%_-_10px)] sm:w-full md:w-[calc(50%_-_10px)] items-center">
 					<div className="w-[50px] h-[50px] bg-white bg-opacity-[0.06] flex items-center justify-center rounded-full">
 						<img src="/images/reverse-dollar.svg" alt="reverse dollar" />
 					</div>
@@ -73,7 +73,7 @@ const Dividend = () => {
 						<p>Next Payout</p>
 					</div>
 				</div>
-				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-[calc(50%_-_10px)] items-center">
+				<div className="px-5 py-7 flex gap-8 bg-subBg rounded-2xl w-full smm:w-[calc(50%_-_10px)] sm:w-full md:w-[calc(50%_-_10px)] items-center">
 					<div className="w-[50px] h-[50px] bg-white bg-opacity-[0.06] flex items-center justify-center rounded-full">
 						<img src="/images/reverse-dollar.svg" alt="reverse dollar" />
 					</div>
