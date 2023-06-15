@@ -24,7 +24,7 @@ const NavBar = () => {
 				<ul className="hidden sm:flex gap-8 lg:gap-14 xl:gap-[70px] items-center font-clash">
 					<li><Link onClick={scrollHandler} className="hover:text-linkHover duration-75	transition-all" to="/#home">Home</Link></li>
 					<li><Link onClick={scrollHandler} className="hover:text-linkHover duration-75	transition-all" to="/#about">About Us</Link></li>
-					<li><Link onClick={scrollHandler} className="hover:text-linkHover duration-75	transition-all" to="/#rooms">Features</Link></li>
+					<li><Link onClick={scrollHandler} className="hover:text-linkHover duration-75	transition-all" to="/#features">Features</Link></li>
 					<li><Link onClick={scrollHandler} className="hover:text-linkHover duration-75	transition-all" to="/#contact">Contact</Link></li>
 				</ul>
 				<div className="hidden sm:flex items-center justify-center gap-3 flex-wrap">
@@ -44,7 +44,7 @@ const NavBar = () => {
 						<ul className="flex gap-[32px] flex-col items-start text-sm">
 							<li><Link onClick={scrollHandler} className="hover:text-linkHover duration-75	transition-all" to="/#home">Home</Link></li>
 							<li><Link onClick={scrollHandler} className="hover:text-linkHover duration-75	transition-all" to="/#about">About Us</Link></li>
-							<li><Link onClick={scrollHandler} className="hover:text-linkHover duration-75	transition-all" to="/#rooms">Features</Link></li>
+							<li><Link onClick={scrollHandler} className="hover:text-linkHover duration-75	transition-all" to="/#features">Features</Link></li>
 							<li><Link onClick={scrollHandler} className="hover:text-linkHover duration-75	transition-all" to="/#contact">Contact</Link></li>
 						</ul>
 					</div>
