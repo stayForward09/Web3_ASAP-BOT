@@ -25,10 +25,14 @@
 
   body {
     font-family: Poppins;
-    @apply text-white bg-mainBg text-sm md:text-base font-normal max-w-[2200px] mx-auto min-h-[100vh] flex
+    @apply text-white bg-mainBg text-sm md:text-base font-normal max-w-[2200px] mx-auto min-h-[100vh] flex tracking-wide
   }
   
   body > #root {
+    @apply flex-1 flex flex-col w-full
+  }
+  
+  body > #root > .App {
     @apply flex-1 flex flex-col w-full
   }
   
@@ -60,8 +64,7 @@
   }
 
   *::placeholder {
-    opacity: .38;
-    color: #fff;
+    @apply text-inactiveColor
   }
 }
 

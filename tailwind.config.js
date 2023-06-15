@@ -22,8 +22,12 @@ module.exports = {
       // Site colors
       mainBg: "#13131A",
       subBg: "#1C1C24",
+      blueText: "#00D2FF",
+      inactiveColor: "#92929D",
     },
     screens: {
+      // => @media (min-width: 350px) { ... }
+      'xsm': '350px',
       // => @media (min-width: 400px) { ... }
       'ssm': '400px',
       // => @media (min-width: 500px) { ... }
@@ -36,6 +40,8 @@ module.exports = {
       'lg': '1024px',
       // => @media (min-width: 1280px) { ... }
       'xl': '1280px',
+      // => @media (min-width: 1500px) { ... }
+      '1.5xl': '1400px',
       // => @media (min-width: 1500px) { ... }
       '2xl': '1500px',
       // => @media (min-width: 1600px) { ... }
