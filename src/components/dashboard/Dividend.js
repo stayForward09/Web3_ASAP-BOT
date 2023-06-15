@@ -4,9 +4,9 @@ const Dividend = () => {
 			<h1 className="text-2xl font-semibold">Dividend</h1>
 			<div className="flex gap-8 pt-8 flex-col 1.5xl:flex-row">
 				<div className="px-6 py-5 bg-subBg rounded-2xl w-full flex flex-col justify-between">
-					<div className="flex justify-between gap-2 items-center">
+					<div className="flex justify-between gap-2 items-center flex-wrap">
 						<h3 className="text-base text-[#92929D]">Total BUSD Claimed</h3>
-						<div className="flex gap-4 items-center flex-wrap justify-end">
+						<div className="flex gap-4 items-center flex-wrap">
 							<button className="break-keep px-5 py-2 border border-white rounded-full opacity-70">Buy ASAP</button>
 							<button className="break-keep px-5 py-2 border border-white rounded-full opacity-70">Stake Crypto</button>
 						</div>
@@ -17,9 +17,9 @@ const Dividend = () => {
 					</div>
 				</div>
 				<div className="px-6 py-5 bg-subBg rounded-2xl w-full flex flex-col justify-between">
-					<div className="flex justify-between gap-2 items-center">
+					<div className="flex justify-between gap-2 items-center flex-wrap">
 						<h3 className="text-base text-[#92929D]">Unrealized Pending BUSD</h3>
-						<div className="flex gap-4 items-center flex-wrap justify-end">
+						<div className="flex gap-4 items-center flex-wrap">
 							<button className="break-keep px-5 py-2 border border-white rounded-full opacity-70">Claim Now</button>
 						</div>
 					</div>
