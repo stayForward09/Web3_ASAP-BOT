@@ -18,7 +18,7 @@ const NavBar = () => {
 	}
 
 	return (
-		<section className="flex px-6" id="home">
+		<section className="flex px-6 ssm:px-10" id="home">
 			<nav className="max-w-[1320px] mx-auto w-full py-7 flex justify-between">
 				<img src="/images/logo.png" alt="Logo" className="w-14 h-14" />
 				<ul className="hidden sm:flex gap-8 lg:gap-14 xl:gap-[70px] items-center font-clash">

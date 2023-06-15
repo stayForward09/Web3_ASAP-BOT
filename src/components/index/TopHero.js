@@ -14,7 +14,7 @@ const LaptopVideo = () => {
 
 const TopHero = () => {
 	return (
-		<section className="flex px-6 py-14 smm:py-20 md:py-28 text-center flex-col">
+		<section className="flex px-6 ssm:px-10 py-14 smm:py-20 md:py-28 text-center flex-col">
 			<div className="max-w-[1066px] mx-auto w-full flex justify-between flex-col">
 				<h1 className="text-4xl ssm:text-5xl smm:text-6xl md:text-[80px] leading-none w-full font-clash font-semibold colored-hero-text">Auto Discord dex sniper bot</h1>
 				<p className="pt-5 max-w-[792px] font-medium text-sm ssm:text-base md:text-xl mx-auto">The fastest discord DEX (uniswap, pancakeswap ) sniper bot , Be the first to buy the next 1000X tokens.</p>
