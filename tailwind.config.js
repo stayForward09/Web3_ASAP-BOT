@@ -53,6 +53,8 @@ module.exports = {
     },
     fontFamily: {
       "body": ["Poppins", "sans-serif"],
+      "clash": ["Clash", "sans-serif"],
+      "cabinet": ["Cabinet", "sans-serif"],
     },
     extend: {
       backgroundImage: {

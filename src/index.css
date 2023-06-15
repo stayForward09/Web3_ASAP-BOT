@@ -11,7 +11,7 @@
     font-weight: inherit;
     font-style: inherit;
     word-break: break-word;
-    transition: color .2s, background-color .2s, left .2s, opacity .2s;
+    transition: background-color .2s, left .2s, opacity .2s;
   }
 
   *:disabled {
@@ -20,12 +20,22 @@
   }
 
   html {
-    background-color: #13131A;
+    background-color: #000;
+  }
+
+  @font-face {
+    font-family: Clash;
+    src: url("../public/fonts/ClashGrotesk.ttf");
+  }
+
+  @font-face {
+    font-family: Cabinet;
+    src: url("../public/fonts/CabinetGrotesk.ttf");
   }
 
   body {
     font-family: Poppins;
-    @apply text-white bg-mainBg text-sm md:text-base font-normal max-w-[2200px] mx-auto min-h-[100vh] flex tracking-wide
+    @apply text-white bg-black text-sm md:text-base font-normal max-w-[2200px] mx-auto min-h-[100vh] flex tracking-wide
   }
   
   body > #root {
@@ -69,5 +79,19 @@
 }
 
 @layer components {
-  
+  .colored-hero-text {
+    background: linear-gradient(91.06deg, #FF1CF7 2.26%, #00F0FF 100%);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+
+  .fancy-left-hero-btn {
+    background: linear-gradient(180deg, #497CFF 0%, #001664 100%);
+  }
+
+  .fancy-right-hero-btn {
+    background: linear-gradient(180deg, #D1D3E2 0%, #75629D 100%);;
+  }
 }

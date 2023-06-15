@@ -7,7 +7,7 @@ const Dashboard = () => {
 	const [navIsOpen, setNavIsOpen] = useState(false)
 
 	return (
-		<div className="flex flex-col flex-1">
+		<div className="flex flex-col flex-1 w-full bg-mainBg">
 			<NavBar navState={[navIsOpen, setNavIsOpen]} />
 			<div className="flex flex-1">
 				<LeftBar navState={[navIsOpen, setNavIsOpen]} />
