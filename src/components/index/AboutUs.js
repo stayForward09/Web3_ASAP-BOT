@@ -32,7 +32,7 @@ const AboutUs = () => {
 						<img src="/images/about-illus-1.png" alt="Illus" />
 					</div>
 				</div>
-				<div className="pt-244 smm:pt-36 md:pt-[160px] pb-20 flex items-center justify-between gap-8">
+				<div className="pt-24 smm:pt-36 md:pt-[160px] pb-20 flex items-center justify-between gap-8">
 					<div className="flex-[5] absolute left-0 -bottom-12 max-md:opacity-50 md:relative z-10 max-w-[80%] smm:max-w-[400px] md:max-w-none">
 						<img src="/images/about-illus-2.png" alt="Illus" />
 					</div>
