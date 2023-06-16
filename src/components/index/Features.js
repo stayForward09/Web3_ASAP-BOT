@@ -4,7 +4,7 @@ const Features = () => {
 	return (
 		<section className="flex px-6 ssm:px-10 pb-20" id="features">
 			<div className="max-w-[1350px] mx-auto w-full flex justify-between flex-col">
-				<div className="font-cabinet py-24 smm:py-28 md:py-64 md:pl-32 z-20">
+				<div className="font-cabinet py-24 smm:py-28 md:py-64  z-20">
 					<h2 className="font-clash font-medium text-5xl">Features</h2>
 					<p className="text-xl pt-2 pb-11">The Fastest discord sniper bot.</p>
 					<div className="flex gap-4 flex-col">

@@ -90,8 +90,15 @@
   .fancy-left-hero-btn {
     background: linear-gradient(180deg, #497CFF 0%, #001664 100%);
   }
+  .fancy-left-hero-btn:hover {
+    background: linear-gradient(180deg, #001664 0%, #497CFF 100%);
+  }
 
   .fancy-right-hero-btn {
     background: linear-gradient(180deg, #D1D3E2 0%, #75629D 100%);;
+  }
+
+  .fancy-right-hero-btn:hover {
+    background: linear-gradient(180deg, #75629D 0%, #D1D3E2 100%);;
   }
 }
