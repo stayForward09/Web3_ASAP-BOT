@@ -31,7 +31,7 @@ const TopHero = () => {
 					<div className="items-center justify-center overflow-hidden hidden lg:flex xl:hidden absolute bg-black top-[32px] left-[136px] w-[651px] h-[406px]"><LaptopVideo /></div>
 					<div className="items-center justify-center overflow-hidden hidden md:flex lg:hidden absolute bg-black top-[21px] left-[91px] w-[433px] h-[272px]"><LaptopVideo /></div>
 					<div className="items-center justify-center overflow-hidden hidden smm:flex md:hidden absolute bg-black top-[13px] left-[60px] w-[290px] h-[182px]"><LaptopVideo /></div>
-					<div className="items-center justify-center overflow-hidden hidden xsm:flex smm:hidden absolute bg-black top-[11px] left-[49px] w-[231px] h-[145px]"><LaptopVideo /></div>
+					<div className="items-center justify-center overflow-hidden hidden xsm:flex smm:hidden absolute bg-black top-[11px] left-[48px] w-[233px] h-[145px]"><LaptopVideo /></div>
 					<div className="items-center justify-center overflow-hidden flex xsm:hidden absolute bg-black top-[9px] left-[39px] w-[188px] h-[118px]"><LaptopVideo /></div>
 				</div>
 			</div>
