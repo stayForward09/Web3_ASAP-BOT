@@ -1,5 +1,4 @@
 import { FaDiscord, FaSearch, FaTelegram, FaTwitter } from "react-icons/fa"
-import { discordLink, mLink, teelgramLink, twitterLink } from "../../utils"
 
 const LeftBar = ({ navState }) => {
 	const [navIsOpen] = navState
@@ -14,8 +13,19 @@ const LeftBar = ({ navState }) => {
 			<div className="pt-8 flex items-center">
 				<div className="w-[3px] h-8 bg-white rounded-r-full"></div>
 				<img src="/images/dividend.png" alt="Dividend" className="ml-4 w-6 h-6 object-contain" />
-				<h3 className="pl-5 text-sm font-semibold">Dividend</h3>
+				<h3 className="pl-5 text-sm font-semibold">Tax- Rewards</h3>
 			</div>
+
+			<div className="pt-8 flex items-center">
+				<img src="/images/dividend.png" alt="Dividend" className="ml-4 w-6 h-6 object-contain" />
+				<h3 className="pl-5 text-sm font-semibold">Treasury Rewards (coming soon) </h3>
+			</div>
+
+			<div className="pt-8 flex items-center">
+				<img src="/images/dividend.png" alt="Dividend" className="ml-4 w-6 h-6 object-contain" />
+				<h3 className="pl-5 text-sm font-semibold">Referral(coming soon)</h3>
+			</div>
+
 			<div className="flex sm:hidden gap-2 items-center px-6 pt-10">
 				<FaSearch className='text-inactiveColor w-[20px] h-[20px]' />
 				<input type="text" placeholder='Search…' className='bg-transparent border-none w-full' />
@@ -25,10 +35,10 @@ const LeftBar = ({ navState }) => {
 				<button className='px-4 py-3 flex xsm:hidden rounded-full border border-white'>Connect Wallet</button>
 			</div>
 			<div className="flex mt-auto items-center justify-center px-5 py-10 gap-1 xl:gap-3 flex-wrap">
-				<a href={twitterLink} target="_blank" rel="noopener noreferrer" className="bg-[#13131A] w-8 h-8 xl:w-10 xl:h-10 flex items-center justify-center rounded-full"><FaTwitter className="w-4 h-4 xl:w-5 xl:h-5" /></a>
-				<a href={mLink} target="_blank" rel="noopener noreferrer" className="bg-[#13131A] w-8 h-8 xl:w-10 xl:h-10 flex items-center justify-center rounded-full"><img className="w-4 h-4 xl:w-5 xl:h-5" src="/images/fa-mmm.svg" alt="M" /></a>
-				<a href={discordLink} target="_blank" rel="noopener noreferrer" className="bg-[#13131A] w-8 h-8 xl:w-10 xl:h-10 flex items-center justify-center rounded-full"><FaDiscord className="w-4 h-4 xl:w-5 xl:h-5" /></a>
-				<a href={teelgramLink} target="_blank" rel="noopener noreferrer" className="bg-[#13131A] w-8 h-8 xl:w-10 xl:h-10 flex items-center justify-center rounded-full"><FaTelegram className="w-4 h-4 xl:w-5 xl:h-5" /></a>
+				<div className="bg-[#13131A] w-8 h-8 xl:w-10 xl:h-10 flex items-center justify-center rounded-full"><FaTwitter className="w-4 h-4 xl:w-5 xl:h-5" /></div>
+				<div className="bg-[#13131A] w-8 h-8 xl:w-10 xl:h-10 flex items-center justify-center rounded-full"><img className="w-4 h-4 xl:w-5 xl:h-5" src="/images/fa-mmm.svg" alt="M" /></div>
+				<div className="bg-[#13131A] w-8 h-8 xl:w-10 xl:h-10 flex items-center justify-center rounded-full"><FaDiscord className="w-4 h-4 xl:w-5 xl:h-5" /></div>
+				<div className="bg-[#13131A] w-8 h-8 xl:w-10 xl:h-10 flex items-center justify-center rounded-full"><FaTelegram className="w-4 h-4 xl:w-5 xl:h-5" /></div>
 			</div>
 		</div>
 	)
